@@ -8,14 +8,14 @@ class Day2Date {
         
 	    LocalDateTime date = LocalDateTime.of(2021,10,14,0,0,0,0);
 	              
-	    //上から順番に年、月、日、曜日(英語)、曜日(数字)の取得
+	    //年、月、日、曜日(英語)、曜日(数字)の取得
 	    int year = date.getYear();
 	    int month = date.getMonthValue();
 	    int day = date.getDayOfMonth();
 	    DayOfWeek  dow = date.getDayOfWeek();
 	    int numDow = date.getDayOfWeek().getValue();
 	              
-	    //それぞれの出力
+	    //それぞれ出力
 	    System.out.println("年：" + year);
 	    System.out.println("月：" + month);
 	    System.out.println("日：" + day);

@@ -6,7 +6,7 @@ class Day2if {
 		    numbers (1);
 	 }
 	 public static void numbers(int number) {
-		    // 引数が0なら偽、1なら真、どちらでもないときの条件分岐を追加してください
+		    // 引数が0なら偽、1なら真、どちらでもないときの条件分岐
 		    	if (number == 0) {
 		    		System.out.println("偽");
 		    	} else if (number ==1) {
